@@ -1,0 +1,27 @@
+<p>preview-track works!</p>
+
+<div class="rectangle-box">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex align-items-start justify-content-center image-container" style="position: relative;">
+                <img style="border-radius: 30px; padding: 7%;"
+                    src={{data.imgPath}}
+                    alt="Your Image" class="img-fluid">
+                <div class="playpause fade-in-element" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <input type="checkbox" value="None" id="playpause" name="check" checked />
+                    <label for="playpause" tabindex=1></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <a href="#">
+                <h4>{{data.trackName}}</h4>
+            </a>
+            <a href="#">
+                <h6>{{data.artist}}</h6>
+            </a>
+        </div>
+    </div>
+</div>
