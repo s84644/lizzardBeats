@@ -2,10 +2,25 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 mx-left">
-
+                <div class="row">
+                    <div class="col-md-4 mx-left">
+                        <img style="border-radius: 10px; height: 50px;"
+                        src={{currentTrack.imgPath}}
+                        alt="Your Image" class="img-fluid">
+                    </div>
+                    <div class="col-md">
+                        <a href="#">
+                           <b>{{currentTrack.trackName}}</b> 
+                         </a>
+                 
+                         <a href="#">
+                             {{currentTrack.artist}}
+                         </a>
+                    </div>
+                </div>
             </div>
             <div class="col-md-8 max-auto">
-
+                
             </div>
             <div class="col-md-2 mx-right">
                 <div class="playpause">

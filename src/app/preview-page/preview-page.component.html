@@ -1,1 +1,9 @@
-<p>preview-page works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <app-preview-track *ngFor="let track of tracks" [data]="track" (currentTrack)="onTrackChange($event)" class="col-md-3"></app-preview-track>
+            </div>
+        </div>
+    </div>
+</div>

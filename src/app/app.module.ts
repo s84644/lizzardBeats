@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PreviewPageComponent } from './preview-page/preview-page.component';
-import { PreviewTrackComponent } from './preview-page/preview-track/preview-track.component';
+import { PreviewTrackComponent } from './preview-track/preview-track.component';
 import { PlayBarComponent } from './play-bar/play-bar.component';
 
 @NgModule({
