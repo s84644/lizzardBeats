@@ -10,9 +10,9 @@
                     </div>
                     <div class="col-md">
                         <a href="#">
-                           <b>{{currentTrack.trackName}}</b> 
+                           <b>{{serviceTest}}</b> 
                          </a>
-                 
+                         <br>
                          <a href="#">
                              {{currentTrack.artist}}
                          </a>
@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-2 mx-right">
                 <div class="playpause">
-                    <input type="checkbox" value="None" id="playpauseBar" name="check" checked/>
+                    <input type="checkbox" value="None" id="playpauseBar" name="check" [checked]="test"/>
                     <label for="playpauseBar" tabindex=1></label>
                 </div>
             </div>

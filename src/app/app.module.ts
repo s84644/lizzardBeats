@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PreviewPageComponent } from './preview-page/preview-page.component';
 import { PreviewTrackComponent } from './preview-track/preview-track.component';
 import { PlayBarComponent } from './play-bar/play-bar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PlayBarComponent } from './play-bar/play-bar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

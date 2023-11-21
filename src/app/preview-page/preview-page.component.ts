@@ -15,7 +15,6 @@ export class PreviewPageComponent {
 
   onTrackChange(data: any){
     console.log(data)
-    
   }
 
   tracks = [{
