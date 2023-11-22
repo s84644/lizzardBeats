@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build
-      run: npm run build  # Anpassen an deinen Build-Befehl
+      run: ng serve # Anpassen an deinen Build-Befehl
 
     - name: Deploy to Vercel
       run: npx vercel --token ${{ secrets.VERCEL_TOKEN }}  # Du musst das Vercel-Token als GitHub Secret hinzufügen
