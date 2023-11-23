@@ -19,7 +19,7 @@ jobs:
         node-version: 18.13
 
     - name: Install Dependencies
-      run: npm install | npm install -g @angular/cli
+      run: npm install 
       
 
     - name: Build
