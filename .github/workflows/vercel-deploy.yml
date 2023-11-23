@@ -29,4 +29,4 @@ jobs:
       run: ng build --configuration=production
 
     - name: Deploy to Vercel
-      run: npx vercel --token ${{ secrets.VERCEL_TOKEN }} --confirm  # Du musst das Vercel-Token als GitHub Secret hinzufügen
+      run: npx vercel --token ${{ secrets.VERCEL_TOKEN }} --confirm
