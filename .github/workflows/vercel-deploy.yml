@@ -19,7 +19,8 @@ jobs:
         node-version: 14
 
     - name: Install Dependencies
-      run: npm install
+      run: npm install | npm install -g @angular/cli
+      
 
     - name: Build
       run: ng serve # Anpassen an deinen Build-Befehl
